@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@300;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+
+    <title>Product List with Cart</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="slice1">
+        <h1>Desserts</h1>
+        <div class="grids">
+          <!-- Content will be injected by JavaScript -->
+        </div>
+      </div>
+      <div class="slice2">
+        <div class="slice2_countainer">
+          <h2 class="cart">Your Cart (<span id="total">0</span>)</h2>
+          <div class="items">
+            <img
+              class="cake"
+              src="./assets/images/illustration-empty-cart.svg"
+              alt="Empty Cart"
+            />
+            <h6>Your added items will appear here</h6>
+          </div>
+          <!-- Déplacez ce conteneur ici -->
+          <div class="product-details" style="display: none"></div>
+          <div id="price-container">
+            <p id="total-price">Total Price:</p>
+          </div>
+        </div>
+      </div>
+    </header>
+    <script src="index.js"></script>
+  </body>
+</html>
